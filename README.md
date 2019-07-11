@@ -4,12 +4,12 @@ Webpack is an open-source JavaScript module bundler. It is a module bundler prim
 
 This repository includes the full configuration to use webpack with CMS Made Simple.
 
-### Requirements
+## Requirements
 
 - Running version of CMS Made Simple version 2.x
 - [Node.js / NPM](https://nodejs.org/en/) installed
 
-### Installation
+## Installation
 
 Create a CMS Made Simple stylesheet with the name "**stylesheet**" and export it. 
 Then install the npm packages.
@@ -33,7 +33,7 @@ Execute `$ npm run build` to compile your resources. You can then find your comp
 - /assets/css/bundle.1.css
 - /assets/js/bundle.js
 
-# Features
+## Features
 
   - Compile SCSS to CSS
   - Automatically prefix the CSS
