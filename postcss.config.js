@@ -1,7 +1,7 @@
 module.exports = {
     plugins: [
         require('autoprefixer')({
-            'browsers': ['> 1%', 'last 8 versions']
+            'overrideBrowserslist': ['> 1%', 'last 8 versions']
         }),
         require('cssnano')({
             'minimize': true
