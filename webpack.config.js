@@ -1,4 +1,3 @@
-const webpack = require('webpack');
 const path = require('path');
 const webpackBuildNotifierPlugin = require('webpack-build-notifier');
 
@@ -9,11 +8,6 @@ const config = {
         filename: 'bundle.js'
     },
     plugins: [
-        new webpack.ProvidePlugin({
-            $: 'jquery',
-            jQuery: 'jquery',
-            'window.jQuery': 'jquery'
-        }),
         new webpackBuildNotifierPlugin({
             title: "Webpack notification",
             suppressSuccess: false
@@ -21,9 +15,6 @@ const config = {
     ],
     module: {
         rules: [
-            // all your loaders will be here.
-            // loaders enables you to use all kinds of
-            // file types
             {
                 test: /\.(js)$/,
                 exclude: /node_modules/,
@@ -35,7 +26,7 @@ const config = {
                     {
                         loader: 'file-loader',
                         options: {
-                            name: 'style.1.css',
+                            name: 'stylesheet.1.css',
                             outputPath: '../css/'
                         }
                     },
