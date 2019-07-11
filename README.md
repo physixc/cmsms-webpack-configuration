@@ -1,7 +1,5 @@
 # CMS Made Simple webpack configuration
 
-[![N|Solid](//www.cmsmadesimple.org/templatefiles/img/logo.png)](https://www.cmsmadesimple.org/)
-
 Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding plugins are included. Webpack takes modules with dependencies and generates static assets representing those modules.
 
 This repository includes the full configuration to use webpack with CMS Made Simple.
